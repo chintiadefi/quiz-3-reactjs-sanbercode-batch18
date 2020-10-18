@@ -3,6 +3,7 @@ import Logo from './img/logo.png'
 import {BrowserRouter, Switch, Route, Link} from "react-router-dom";
 import Home from '../Home/Home'
 import About from '../About/About'
+import MovieList from '../MovieList/MovieList'
 import './Index.css'
 
 function Index() {
@@ -22,6 +23,7 @@ function Index() {
         <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/about' exact component={About}/>
+            <Route path='/login' exact component={MovieList}/>
         </Switch>
         </section>
         <footer>

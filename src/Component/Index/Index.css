@@ -28,8 +28,8 @@ a {
 }
 
 section {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: white;
     position: relative;
     top: 70px;
@@ -63,4 +63,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
